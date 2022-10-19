@@ -1,0 +1,10 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./inc"
+    ],
+    "directory": "/Users/aleksandrsperling/ffolder/ms",
+    "file": "/Users/aleksandrsperling/ffolder/ms/minishell.c"
+  }
+]

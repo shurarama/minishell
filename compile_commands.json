@@ -2,9 +2,41 @@
   {
     "arguments": [
       "/usr/bin/gcc",
-      "-I./inc"
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I./inc",
+      "-c",
+      "-I",
+      "/Users/aleksandrsperling/mports/include",
+      "-I",
+      "/Users/aleksandrsperling/mports/include",
+      "-o",
+      "minishell.o",
+      "minishell.c"
     ],
-    "directory": "/Users/aleksandrsperling/ffolder/ms",
-    "file": "/Users/aleksandrsperling/ffolder/ms/minishell.c"
+    "directory": "/Users/aleksandrsperling/ffolder/minishell",
+    "file": "/Users/aleksandrsperling/ffolder/minishell/minishell.c",
+    "output": "/Users/aleksandrsperling/ffolder/minishell/minishell.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I./inc",
+      "-c",
+      "-I",
+      "/Users/aleksandrsperling/mports/include",
+      "-I",
+      "/Users/aleksandrsperling/mports/include",
+      "-o",
+      "termsetup.o",
+      "termsetup.c"
+    ],
+    "directory": "/Users/aleksandrsperling/ffolder/minishell",
+    "file": "/Users/aleksandrsperling/ffolder/minishell/termsetup.c",
+    "output": "/Users/aleksandrsperling/ffolder/minishell/termsetup.o"
   }
 ]

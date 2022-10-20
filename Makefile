@@ -1,6 +1,6 @@
 NAME		= minishell
 
-SRCS		= minishell.c $(wildcard */*.c)
+SRCS		= $(wildcard *.c)
 OBJS		= $(SRCS:.c=.o)
 
 CC			= gcc
